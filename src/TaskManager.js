@@ -22,7 +22,8 @@ function TaskManager() {
 
   return (
     <div className='taskManager'>
-      <header>Task Manager</header>
+      
+      <header><center>Task Manager</center></header>
       <div className='taskManager__container'>
         <button 
           onClick={() => setOpenAddModal(true)}>

@@ -24,8 +24,8 @@
 .addTask button {
   height: 40px;
   border: none;
-  color: white;
-  background-color: hsl(210, 12%, 15%);
+  color: hsl(210, 12%, 15%);
+  background-color: #bd5500;
 }
 
 .addTask textarea {
@@ -40,7 +40,8 @@
 }
 
 .addTask button:hover {
-  background-color: hsl(210, 12%, 25%);
+  background-color: #95633b;
+  color: white;
 }
 
 .addTask button:active {
@@ -168,7 +169,7 @@ button{
 .task{
   width: 100%;
   padding: 15px 20px;
-  border-left: 4px solid hsl(210, 10%, 75%);
+  border-left: 4px solid #bd5500;
   background-color: white;
   max-width: 700px;
   margin: 0 auto;
@@ -324,12 +325,14 @@ button{
   font-size: 18px;
   padding: 10px 15px;
   margin: 0 auto;
-  background-color: hsl(210, 12%, 15%);
+  background-color: #bd5500;
+  border: solid 1px black;
   cursor: pointer;
 }
 
 .taskManager__container > button:hover{
-  background-color: hsl(210, 12%, 25%);
+  background-color: #95633b;
+  border: solid 1px white;
 }
 
 .taskManager__container > button:active{
